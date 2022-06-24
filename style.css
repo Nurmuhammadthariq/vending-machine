@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.food {
+    margin: 0 0 10px 0;
+}

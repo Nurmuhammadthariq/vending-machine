@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vending machine</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="food biskuit">
+        <div class="food-text">Biskuit</div>
+        <div class="biskuit-price">Rp. 6000</div>
+        <div class="tag-one">A1</div>
+      </div>
+      <div class="food chips">
+        <div class="food-text">Chips</div>
+        <div class="biskuit-price">Rp. 8000</div>
+        <div class="tag-one">A2</div>
+      </div>
+      <div class="food oreo">
+        <div class="food-text">Oreo</div>
+        <div class="oreo-price">Rp. 10000</div>
+        <div class="tag-one">A3</div>
+      </div>
+      <div class="food tango">
+        <div class="food-text">Tango</div>
+        <div class="tango-price">Rp. 12000</div>
+        <div class="tag-one">A4</div>
+      </div>
+      <div class="food cokelat">
+        <div class="food-text">Cokelat</div>
+        <div class="cokelat-price">Rp. 15000</div>
+        <div class="tag-one">A5</div>
+      </div>
+    </div>
+    <div>
+			<div>Masukan Uang: </div>
+      <button class="money" value="2000">2000</button>
+      <button class="money" value="5000">5000</button>
+      <button class="money" value="10000">10000</button>
+      <button class="money" value="20000">20000</button>
+      <button class="money" value="50000">50000</button>
+    </div>
+		<div>
+			<div>Pilih Makanan: </div>
+			<button class="selection" value="A1">A1</button>
+      <button class="selection" value="A2">A2</button>
+      <button class="selection" value="A3">A3</button>
+      <button class="selection" value="A4">A4</button>
+      <button class="selection" value="A5">A5</button>
+		</div>
+    <div class="pay-box" id="pay"></div>
+    <div id="productCount" class="product-count"></div>
+    <div id="displayBox"></div>
+    <script src="script.jsx"></script>
+  </body>
+</html>
